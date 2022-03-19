@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Staking Caluculator</title>
+    <meta name="description" content="This calculator can calculate how much you need to stake can get your goal at your input_days.">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+
+    <div class="form">
+        <h1>Staking Calculator</h1>
+        <form name="form">
+
+            <p>Enter token name:</p>
+            <input type="text" name="coin" id="t1">
+
+            <p>How much want to get (token):</p>
+            <input type="text" name="TargetProfit" id="t2">
+
+            <p>How many days wnat to get target profit:</p>
+            <input type="text" name="days" id="t3">
+
+            <p>Enter APR (EX:53%=0.53):</p>
+            <input type="text" name="apr" id="t4">
+
+            <button onclick="add()">Start calculate</button>
+        </form>
+    </div>
+
+</body>
+</html>
+

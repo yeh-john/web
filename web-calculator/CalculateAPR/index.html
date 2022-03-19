@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>APR CALCULATOR</title>
+    <meta name="description" content="This calculator can calculate staking APR">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+
+    <div class="form">
+        <h1>APR CALCULATOR</h1>
+        <form name="form">
+            <p>Enter staking platform :</p>
+            <input type="text" name="platform" id="t1">
+
+            <p>Enter staking token name :</p>
+            <input type="text" name="coin" id="t2">
+
+            <p>Enter one day reward profit (USD):</p>
+            <input type="text" name="reward" id="t3">
+
+            <p>Enter staking amount (USD):</p>
+            <input type="text" name="staking_amt" id="t4">   <!-- Staking amount -->
+
+            <button onclick="add()">Start calculate</button>
+        </form>
+    </div>
+
+</body>
+</html>
+
