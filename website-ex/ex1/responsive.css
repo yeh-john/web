@@ -1,0 +1,67 @@
+/*mobilephone*/
+
+@media(max-width:750px){
+
+  .nomal-header{
+    display: none;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  .mainimg{
+    display: none;
+  }
+
+  .mainimg2{
+    width: 100%;
+  }
+
+  .top-wrapper{
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .contents{
+    display: block;
+  }
+
+  /*ここからservice*/
+
+  .service-contents{
+    width: 90%;
+    padding-top: 60px;
+    margin: 0 auto;
+  }
+
+  .service-contents img{
+    padding: 10px 0 15px 0;
+  }
+
+  .service-contents1{
+    width: 90%;
+    padding-top: 0px;
+    margin: 0 auto;
+  }
+
+  .service-contents1 img{
+    padding: 10px 0 15px 0;
+  }
+
+}
+
+
+/*PC and Tablet*/
+
+
+@media(min-width: 750px){
+  .mainimg2{
+    display: none;
+  }
+
+  .header-bars{
+    display: none;
+  }
+
+}

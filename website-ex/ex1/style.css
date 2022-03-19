@@ -1,0 +1,352 @@
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*ここからcss*/
+
+  body{
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN" , Meiryo, serif;
+  font-size: 16px;
+  line-height: 1.9;
+  background-color: #ffffff;　　 /*もともとのカラーコード#121413  #111*/ 
+  }
+
+  a{
+    text-decoration: none;
+    color: #BFBFBF;   /*BFBFBF*/
+  }
+
+  .container{
+  width: 75%;
+  margin: 0 auto;
+}
+
+  ul{
+    list-style: none;
+  }
+
+
+/*ここからheader*/
+
+  header{
+  width:100%;
+  position:sticky;
+  top:0;
+  height: 130px;
+  background-color: #0C0D0D;
+  }
+
+  .container-header{
+    background-color:black;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .header-left{
+    float:left;
+    padding-top: 40px;
+  }
+
+  .header-left img{
+    height: 50px;
+    width: auto;
+  }
+
+  .header-right{
+    padding-top: 50px;
+    float: right;
+  }
+
+  .header-nav li{
+    float: right;
+    padding: 0 30px;
+    letter-spacing: 4px;
+  }
+
+  .header-nav li:hover{
+    text-decoration: underline 1.5px;
+    text-underline-offset: 5px;
+  }
+
+
+/*ここからside-bars*/
+
+  .header-bars{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+  }
+
+  .header-bars .header-left{
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  .header-bars .header-left img{
+      height: 40px;
+      width: auto;
+    }
+
+  .side-bars img{
+    width: 25px;
+    float: right;
+    padding-top: 25px;
+    padding-right: 20px;
+    z-index: 10;
+  }
+
+  .header-cover img{
+    width: 25px;
+    float: right;
+    padding-top: 25px;
+    padding-right: 20px;
+    z-index: 100;
+  }
+
+  .drawer-btn:checked ~ .bars-nav{
+    transform: translateY(0%);
+    transition: 0.5s;
+  }
+
+  .drawer-btn{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    transform:scale(2);
+    opacity: 0;
+    z-index: 200;
+  }
+
+  .bars-nav{
+    width: 100%;
+    position: absolute;
+    top:80px;
+    background-color: #0C0D0D;
+    text-align: left;
+    transform: translateY(-150%);
+  }
+
+  .bars-nav li{
+    padding: 18px 0;
+    border-bottom: 1px solid white;
+  }
+
+  .bars-nav li a{
+    font-family: 'Modern Antiqua' , 'Noto Sans JP' ,serif;
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+
+  .bars-nav li a:hover{
+    text-decoration: underline;
+  }
+
+  .bars-nav img{
+    width: 12px;
+    height: auto;
+    padding: 0 10px;
+  }
+
+
+
+/*ここからbody*/
+
+.contents{
+  display: flex;
+}
+
+.main-logo{
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 10px;
+  font-weight: 100;
+  padding: 80px 0 60px 0;
+  color: #333333;
+}
+
+
+  /*ここからメインフォト*/
+  .mainimg{
+    width: 100%;
+  }
+
+
+  /*ここからservice*/
+
+.service-contents{
+  width: 50%;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 45px;
+}
+
+.service-contents img{
+  height: 102px;
+  width: 98px;
+  padding: 30px 0 50px 0;
+}
+
+.service-contents1{
+  width: 50%;
+  text-align: center;
+  color: #333333;
+}
+
+.service-contents1 img{
+  height: 102px;
+  width: 98px;
+  padding: 30px 0 50px 0;
+}
+
+
+.service-text{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.service-contents p.font{
+  color: #c0c0c0;
+}
+
+.service-contents h1{
+  font-size: 20px;
+  color: #333333;
+}
+
+.service-contents1 p.font{
+  color: #c0c0c0;
+}
+
+.service-contents1 h1{
+  font-size: 20px;
+  color: #333333;
+}
+
+
+/* start strength*/
+
+.strength-container{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.strength-contents{
+  background-color: plum;
+  display: flex;
+  text-align: center;
+}
+
+.strength-contents img{
+  width: 100px;
+}
+
+.strength-contents p{
+  text-align: center;
+}
+
+.strength-contents h1{
+  text-align: center;
+}
