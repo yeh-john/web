@@ -7,9 +7,9 @@ function add()
     const stake_amt = document.getElementById("t4").value;  // Staking amount
 
     // Start calculate
-    const day_rate = parseFloat(reward)/parseFloat(stake_amt)
-    const apr = parseFloat(day_rate)*365
-    const percent = parseFloat(apr)*100
+    const day_rate = parseFloat(reward)/parseFloat(stake_amt);
+    const apr = parseFloat(day_rate)*365;
+    const percent = parseFloat(apr)*100;
 
     // Const result info
     const result = platform+' staking '+coin+' APR is ';
